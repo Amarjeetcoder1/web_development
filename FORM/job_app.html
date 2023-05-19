@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <h2>Job Application</h2>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <label for="phone">Phone:</label>
+        <input type="number" name="phone" id="phone">
+        <br><br>
+        <label for="resume">Resume:</label>
+        <input type="file" name="resume" id="resume">
+        <br><br>
+        <label for="num">Experence(in Years)</label>
+        <input type="number" name="num" id="num" min="0" max="50">
+        <br><br>
+        <fieldset>
+            <legend>Skill</legend>
+            <input type="checkbox" name="skill" id="html">
+            <label for="html">Html</label> <br>
+            <input type="checkbox" name="skill" id="css">
+            <label for="css">Css</label> <br>
+            <input type="checkbox" name="skill" id="js">
+            <label for="js">JavaScript</label>
+        </fieldset>
+        <br>
+        <label for="select1">Highest Education:</label>
+        <select name="select1" id="select1">
+            <option value="High School">High School</option>
+            <option value="Collage">Collage</option>
+            <option value="University">University</option>
+            <option value=""></option>
+            <option value=""></option>
+        </select>
+        <br><br>
+        <fieldset>
+            <legend>Avalibility</legend>
+            <input type="radio" name="time" id="part">
+            <label for="part">Part Time:</label> <br>
+            <input type="radio" name="time" id="full">
+            <label for="full">Full Time:</label>
+        </fieldset>
+        <br>
+        <br>
+        <label for="commit">Additional comments </label><br>
+        <textarea name="commt" id="commt" cols="30" rows="2"></textarea>
+        <br> <br>
+        <input type="submit" value="Submit Application">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
